@@ -17,9 +17,9 @@ Fecha int,
 foreign key (IDCuentas) references Cuentas(IDCuentas) on delete cascade
 );
 
-insert into Cuentas (IdCuentas, NombreCliente, Saldo) values ('1', 'Amelia Rivera Calva', 45977.30);
-insert into Cuentas (IdCuentas, NombreCliente, Saldo) values ('2', 'Abril  Ocaña Almeda', 2112.77);
-insert into Cuentas (IdCuentas, NombreCliente, Saldo) values ('3', 'Claudia Carolina Molina Almeda', 4124.97);
-insert into Cuentas (IdCuentas, NombreCliente, Saldo) values ('4', 'Greta Arteaga Guarneros', 37907.46);
-insert into Cuentas (IdCuentas, NombreCliente, Saldo) values ('5', 'Enzo Olavarrieta Arellanes', 15210.98);
+insert into Cuentas (NombreCliente, Saldo) values ('1', 'Amelia Rivera Calva', 45977.30);
+insert into Cuentas (NombreCliente, Saldo) values ('2', 'Abril  Ocaña Almeda', 2112.77);
+insert into Cuentas (NombreCliente, Saldo) values ('3', 'Claudia Carolina Molina Almeda', 4124.97);
+insert into Cuentas (NombreCliente, Saldo) values ('4', 'Greta Arteaga Guarneros', 37907.46);
+insert into Cuentas (NombreCliente, Saldo) values ('5', 'Enzo Olavarrieta Arellanes', 15210.98);
 
